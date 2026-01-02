@@ -1,0 +1,34 @@
+# Binaries
+focus
+focus-guardian
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+*.test
+*.out
+go.work
+
+# Config (if storing user data)
+config.yaml
+*.yaml
+*.yml
+!default.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage.txt
+coverage.html
